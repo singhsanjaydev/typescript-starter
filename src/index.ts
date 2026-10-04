@@ -1,2 +1,1 @@
-const greeting = "Hello, Typescript!";
-console.log(greeting);
+export const starterName: string = "typescript-starter";

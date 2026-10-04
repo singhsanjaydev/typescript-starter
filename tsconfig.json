@@ -1,3 +1,54 @@
 {
-  "compilerOptions": {}
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "include": ["src"],
+  "compilerOptions": {
+    /* Language and environment: pure ECMAScript, no host APIs */
+    "target": "es2025",
+    "lib": ["es2025"],
+    "types": [],
+
+    /* Modules */
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "verbatimModuleSyntax": true,
+    "rewriteRelativeImportExtensions": true,
+    "noUncheckedSideEffectImports": true,
+    "resolveJsonModule": false,
+    "erasableSyntaxOnly": true,
+
+    /* JavaScript interop: TypeScript only */
+    "allowJs": false,
+    "checkJs": false,
+
+    /* Type checking: the strict family */
+    "strict": true,
+
+    /* Type checking: beyond strict */
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "isolatedDeclarations": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": false,
+
+    /* Emit */
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "newLine": "lf",
+
+    /* Diagnostics */
+    "noErrorTruncation": true
+  }
 }
