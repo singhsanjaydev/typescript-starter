@@ -1,8 +1,3 @@
----
-agent: devin-local
-session: speckled-cause
-created: 2026-10-04T13:06:38Z
----
 # Super-Strict, Environment-Neutral TypeScript Starter Seed
 
 Build the starter described in ts.md directly in temp/: TypeScript 6.0.x + ESLint 10 flat config + typescript-eslint (type-checked strict) + Prettier, with explicit-typing enforced via core no-restricted-syntax, comprehensive docs, validation, and an initial commit on a feature branch.
